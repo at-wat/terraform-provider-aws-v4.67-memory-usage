@@ -84,70 +84,70 @@ provider "aws" {
 }
 
 
-data "aws_caller_identity" "ap-northeast-1" {
+data "aws_iam_policy_document" "ap-northeast-1" {
   provider = aws.ap-northeast-1
 }
 
-data "aws_caller_identity" "ap-northeast-2" {
+data "aws_iam_policy_document" "ap-northeast-2" {
   provider = aws.ap-northeast-2
 }
 
-data "aws_caller_identity" "ap-northeast-3" {
+data "aws_iam_policy_document" "ap-northeast-3" {
   provider = aws.ap-northeast-3
 }
 
-data "aws_caller_identity" "ap-south-1" {
+data "aws_iam_policy_document" "ap-south-1" {
   provider = aws.ap-south-1
 }
 
-data "aws_caller_identity" "ap-southeast-1" {
+data "aws_iam_policy_document" "ap-southeast-1" {
   provider = aws.ap-southeast-1
 }
 
-data "aws_caller_identity" "ap-southeast-2" {
+data "aws_iam_policy_document" "ap-southeast-2" {
   provider = aws.ap-southeast-2
 }
 
-data "aws_caller_identity" "ca-central-1" {
+data "aws_iam_policy_document" "ca-central-1" {
   provider = aws.ca-central-1
 }
 
-data "aws_caller_identity" "eu-central-1" {
+data "aws_iam_policy_document" "eu-central-1" {
   provider = aws.eu-central-1
 }
 
-data "aws_caller_identity" "eu-north-1" {
+data "aws_iam_policy_document" "eu-north-1" {
   provider = aws.eu-north-1
 }
 
-data "aws_caller_identity" "eu-west-1" {
+data "aws_iam_policy_document" "eu-west-1" {
   provider = aws.eu-west-1
 }
 
-data "aws_caller_identity" "eu-west-2" {
+data "aws_iam_policy_document" "eu-west-2" {
   provider = aws.eu-west-2
 }
 
-data "aws_caller_identity" "eu-west-3" {
+data "aws_iam_policy_document" "eu-west-3" {
   provider = aws.eu-west-3
 }
 
-data "aws_caller_identity" "sa-east-1" {
+data "aws_iam_policy_document" "sa-east-1" {
   provider = aws.sa-east-1
 }
 
-data "aws_caller_identity" "us-east-1" {
+data "aws_iam_policy_document" "us-east-1" {
   provider = aws.us-east-1
 }
 
-data "aws_caller_identity" "us-east-2" {
+data "aws_iam_policy_document" "us-east-2" {
   provider = aws.us-east-2
 }
 
-data "aws_caller_identity" "us-west-1" {
+data "aws_iam_policy_document" "us-west-1" {
   provider = aws.us-west-1
 }
 
-data "aws_caller_identity" "us-west-2" {
+data "aws_iam_policy_document" "us-west-2" {
   provider = aws.us-west-2
 }
