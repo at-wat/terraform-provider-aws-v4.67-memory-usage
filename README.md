@@ -19,3 +19,8 @@ provider version    | 4.66.1 | 4.67.0 | 5.0.1
 ------------------- | ------ | ------ | ------
 Max RSS (average)   | 557.7M | 732.6M | 734.8M
 RSS increase        | -      | 31.4%  | 31.7%
+
+```
+Terraform v1.4.5
+on linux_amd64
+```
