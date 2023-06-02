@@ -9,7 +9,8 @@ It significantly increases memory usage, especially when using multiple provider
 
 Run
 ```shell
-make
+make init
+make measure
 ```
 to measure max RSS when refreshing `aws_iam_policy_document` data resources on 17 regions.
 
