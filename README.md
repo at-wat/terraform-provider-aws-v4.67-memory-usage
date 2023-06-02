@@ -2,8 +2,8 @@
 
 ## Background
 
-Memory consumption of terraform-provider-aws has been increased for >30% since v4.67.0.
-It significantly increases memory usage especially when using multiple provider configurations.
+Memory consumption of terraform-provider-aws has increased by >30% since v4.67.0.
+It significantly increases memory usage, especially when using multiple provider configurations.
 
 ## Reproduction
 
