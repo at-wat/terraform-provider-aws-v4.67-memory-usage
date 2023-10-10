@@ -6,6 +6,7 @@ measure:
 	./time.sh 10 5.1.0  | tee rss.5.1.0.dat
 	./time.sh 10 5.7.0  | tee rss.5.7.0.dat
 	./time.sh 10 5.16.2  | tee rss.5.16.2.dat
+	./time.sh 10 5.20.0  | tee rss.5.20.0.dat
 
 .PHONY: init
 init:
@@ -15,3 +16,4 @@ init:
 	cd 5.1.0 && terraform init
 	cd 5.7.0 && terraform init
 	cd 5.16.2 && terraform init
+	cd 5.20.0 && terraform init
